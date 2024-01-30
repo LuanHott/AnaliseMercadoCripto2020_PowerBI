@@ -3,29 +3,29 @@ Data analysis project to learn and figure out some cycles and patterns on the cr
 
 Subject coins:
  
-Aave
-BinanceCoin
-Bitcoin
-Cardano
-ChainLink
-Cosmos
-CryptocomCoin
-Dogecoin
-EOS
-Ethereum
-Iota
-Litecoin
-Monero
-NEM
-Polkadot
-Solana
-Stellar
-Tether
-Tron
-USDCoin
-Uniswap
-WrappedBitcoin
-XRP
+Aave;
+BinanceCoin;
+Bitcoin;
+Cardano;
+ChainLink;
+Cosmos;
+CryptocomCoin;
+Dogecoin;
+EOS;
+Ethereum;
+Iota;
+Litecoin;
+Monero;
+NEM;
+Polkadot;
+Solana;
+Stellar;
+Tether;
+Tron;
+USDCoin;
+Uniswap;
+WrappedBitcoin;
+XRP;
 
 The main goal here is to identify some temporal cycle on the crypto market either bull or bear runs, by analyzing USA fiscal updates x coin price x market cap x times of the year (or years).
 
