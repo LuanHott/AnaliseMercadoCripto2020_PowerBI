@@ -14,7 +14,7 @@ for csv_file in csv_files:
 
     df_coins = pd.read_csv(os.path.join(input_folder, csv_file))
     
-    df_coins = df_coins.drop(['Symbol', 'SNo', 'Low', 'Open', 'Close', 'Name'], axis=1)
+    df_coins = df_coins.drop(['Symbol', 'SNo', 'Low', 'Open', 'Close'], axis=1)
     
     coins_filtered = df_coins[(df_coins['Date'] >= start_date) & (df_coins['Date'] <= end_date)]
 

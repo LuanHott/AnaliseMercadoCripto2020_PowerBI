@@ -31,4 +31,4 @@ calendar_filtered.head()
 
 # %%
 
-calendar_filtered.to_csv('../data/Calendar_Clean/calendar_clean.csv',index=False)
+calendar_filtered.to_csv('../data/Calendar_Clean/Calendar_clean.csv',index=False)
