@@ -1,25 +1,26 @@
 # %%
 
 import pandas as pd
+import os
 
-df_coins = pd.read_csv("../data/Coin_Raw/coin_Bitcoin.csv")
-df_coins.head()
-# %%
-df_coins = df_coins.drop(['Symbol', 'SNo', 'Low', 'Open','Close', 'Name'], axis=1)
-# %%
-df_coins.head()
-
-# %%
-
+input_folder = "../data/Coin_Raw/"
+output_folder = "../data/Coin_Clean/"
 start_date = '2020-01-01'
 end_date = '2020-12-31'
+#%%
+csv_files = [f for f in os.listdir(input_folder) if f.endswith('.csv')]
 
-coins_filtered = df_coins[(df_coins['Date'] >= start_date) & (df_coins['Date'] <= end_date)]
-# %%
-df_coins = coins_filtered 
+for csv_file in csv_files:
+
+    df_coins = pd.read_csv(os.path.join(input_folder, csv_file))
+    
+    df_coins = df_coins.drop(['Symbol', 'SNo', 'Low', 'Open', 'Close', 'Name'], axis=1)
+    
+    coins_filtered = df_coins[(df_coins['Date'] >= start_date) & (df_coins['Date'] <= end_date)]
+
+    coins_filtered.reset_index(inplace=True, drop=True)
+    
+    output_file = os.path.join(output_folder, csv_file.replace('.csv', '_clean.csv'))
+    coins_filtered.to_csv(output_file, index=False)
 
 # %%
-df_coins.reset_index(inplace=True, drop=True)
-df_coins.head()
-# %%
-df_coins.to_csv('../data/Coin_Clean/coin_Bitcoin_clean.csv',index=False)
