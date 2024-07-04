@@ -2,13 +2,9 @@
 <p>
   <a href="https://www.linkedin.com/in/luanhteixeira/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="LinkedIn" width="30" height="30" style="vertical-align: middle;"/>
-  </a>
-  &nbsp;&nbsp; 
-  <a href="PlaceHolder" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="30" height="30" style="vertical-align: middle;"/>
+    <span style="vertical-align: middle; color: black;">/luanhteixeira</span>
   </a>
 </p>
-
 ### Visão Geral
 
 Esse projeto de análise de dados tem como objetivo fornecer insights sobre o mercado de criptomoedas. Atráves da análise de diversos pontos cruciais para o mercado cripto, busquei identificar padrões e fornecer de forma clara um melhor entendimento do mercado. 
