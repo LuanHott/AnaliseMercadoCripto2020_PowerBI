@@ -1,6 +1,41 @@
 # Análise do Mercado Cripto 2020
-Data analysis project to learn and figure out some cycles and patterns on the bitcoin market
 
-The main goal here is to identify some temporal cycle on the crypto market either bull or bear runs, by analyzing USA fiscal updates x coin price x volume.
+### Visão Geral
 
-Using python as the main analysis tool and powerBI to visualize the data.
+Esse projeto de análise de dados tem como objetivo fornecer insights sobre o mercado de criptomoedas. Atráves da análise de diversos pontos cruciais para o mercado cripto, busquei identificar padrões e fornecer de forma clara um melhor entendimento do mercado. 
+[Primeira página](Imagens/Página1.png)
+[Segunda página](Imagens/Página2.png)
+
+### Fonte de dados
+
+
+
+### Ferramentas
+
+
+
+### Limpeza e preparação dos dados
+
+
+
+### Análise de dados exploratória
+
+
+
+### Análise de dados
+'''
+
+'''
+### Resultados/Descobertas
+
+
+
+### Limitações
+
+
+
+
+
+
+
+
