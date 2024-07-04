@@ -1,6 +1,6 @@
 # Análise do Mercado Cripto 2020
 <p>
-  <a href="https://www.linkedin.com/in/luanhteixeira/" target="_blank">
+  <a href="https://www.linkedin.com/in/luanhteixeira/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="LinkedIn" width="30" height="30" style="vertical-align: middle;"/>
   </a>
   &nbsp;&nbsp; 
